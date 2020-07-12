@@ -4,12 +4,14 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import { GlobalProvider } from "./context/GlobalState";
-import { Link, BrowserRouter as Router,Routes ,Route} from 'react-router-dom';
-import {Home} from "./components/Home/Home";
-import {Cart} from "./components/Cart/Cart";
-import {ShoeDetail} from "./components/ShoeDetail/ShoeDetail";
-import {About} from "./components/About/About";
-import {NotFound} from "./components/NotFound/NotFound";
+import { Link, BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Home } from "./components/Home/Home";
+import { Cart } from "./components/Cart/Cart";
+import { ShoeDetail } from "./components/Detail/ShoeDetail";
+import { DetailIndex } from "./components/Detail/DetailIndex";
+import { Detail } from "./components/Detail/Detail";
+import { About } from "./components/About/About";
+import { NotFound } from "./components/NotFound/NotFound";
 
 
 const useStyles = makeStyles((theme) => ({
@@ -49,7 +51,10 @@ export default function App() {
           </AppBar>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path=":shoe" element={<ShoeDetail />} />
+            <Route path="detail" element={<Detail />}>
+              <Route path="/" element={<DetailIndex />} />
+              <Route path="/:shoe" element={<ShoeDetail />} />
+            </Route>
             <Route path="about" element={<About />} />
             <Route path="cart" element={<Cart />} />
             <Route path="*" element={<NotFound />} />

@@ -41,7 +41,7 @@ export const Home = () => {
                       {desc}
                     </Typography>
                     <Typography variant="h5">
-                      Price: {price}$
+                      Price: ${price}
                     </Typography> 
                   </CardContent>
                 </CardActionArea>
@@ -50,7 +50,7 @@ export const Home = () => {
                     Add To Cart
                   </Button>
                   <Button size="small" color="primary">
-                    <Link to={`${shoe}`} style={{"textDecoration": "none"}}>
+                    <Link to={`/detail/${shoe}`} style={{"textDecoration": "none"}}>
                       Details
                     </Link>
                   </Button>

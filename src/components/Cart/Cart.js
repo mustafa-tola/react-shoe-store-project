@@ -51,7 +51,7 @@ export const Cart = () => {
                                             </Typography>
 
                                             <Typography variant="h5">
-                                                Price: {shoe.changedPrice}
+                                                Price: ${shoe.changedPrice}
                                             </Typography>
                                             <div style={{ "display": "flex", "textAlign": "center", "justifyContent": "center" }}>
                                                 <Button color="primary" variant="contained" size="small" onClick={() => addQuantity(shoe.id)}>
@@ -71,7 +71,7 @@ export const Cart = () => {
                                             Remove From Cart
                                         </Button>
                                         <Button size="small" color="primary">
-                                            <Link to={`/${shoe.id}`} style={{"textDecoration": "none"}}>
+                                            <Link to={`/detail/${shoe.id}`} style={{"textDecoration": "none"}}>
                                                 Details
                                             </Link>
                                         </Button>
