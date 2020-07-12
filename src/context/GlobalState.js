@@ -101,6 +101,7 @@ export const GlobalProvider = ({ children }) => {
                 shoe.quantity += 1;
                 shoe.changedPrice = shoe.quantity * shoe.price;
             }
+            return shoe;
         });
         localStorage.setItem('cartData', JSON.stringify(state.cartData));
         localStorage.setItem('totalAmount', JSON.stringify(total));
@@ -116,6 +117,7 @@ export const GlobalProvider = ({ children }) => {
             if (shoe.id === id) {
                 addedItem = shoe
             }
+            return addedItem;
         })
         if (addedItem.quantity === 1) {
             let newCartData = state.cartData.filter(shoe => shoe.id !== id);
@@ -134,6 +136,7 @@ export const GlobalProvider = ({ children }) => {
             state.cartData.map(shoe => {
                 shoe.quantity = addedItem.quantity;
                 shoe.changedPrice = addedItem.changedPrice;
+                return shoe;
             })
             localStorage.setItem('cartData', JSON.stringify(state.cartData));
             localStorage.setItem('totalAmount', JSON.stringify(total));

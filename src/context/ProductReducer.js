@@ -33,5 +33,9 @@ export default (state, action) => {
         cartData: action.data,
         totalAmount: action.total,
       }
+    default:
+      return {
+        ...state,
+      }
   }
 }

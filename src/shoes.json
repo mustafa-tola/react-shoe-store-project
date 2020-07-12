@@ -2,77 +2,87 @@
   "air-jordan-3-valor-blue": {
     "name": "Valour Blue",
     "img":
-      "https://secure-images.nike.com/is/image/DotCom/CT8532_104_A_PREM?$SNKRS_COVER_WD$&align=0,1",
+      ["https://secure-images.nike.com/is/image/DotCom/CT8532_104_A_PREM?$SNKRS_COVER_WD$&align=0,1","https://c.static-nike.com/a/images/t_prod_ss/w_480,c_limit,q_auto,f_auto/041dc65b-be1d-4efd-8000-088b47521e61/air-jordan-3-valor-blue-release-date.jpg","https://c.static-nike.com/a/images/t_prod_ss/w_480,c_limit,q_auto,f_auto/98f2f5db-76d5-45bf-b210-a42c9dc91efe/air-jordan-3-valor-blue-release-date.jpg","https://c.static-nike.com/a/images/w_480,c_limit,q_auto,f_auto/w_640,c_limit,f_auto/54c73dca-32b0-4d7b-b3a5-9abf5942208d/air-jordan-3-valor-blue-release-date.jpg"],
     "desc": "The Air Jordan 3 remains an all-time favourite silhouette worldwide. While the design has hit shelves in an astonishing range of materials and colours, some iterations are tougher to track down than others. Such is the case for most players-exclusive (PE) releases, which are bestowed upon athletes at a handful of brand-sponsored universities. Nodding to a special edition created for athletes at MJ's alma mater, this release comes dressed in white with accents of Valour Blue. Elephant print and a stitched tag on the insole pay homage to MJ for paving the way.",
-    "price": 150,
-    "id": "air-jordan-3-valor-blue",
-    "changedPrice": 150,
-    "quantity": 0
+    "price": 164,
+    "id": "air-jordan-3-valor-blue"
   },
   "jordan-mars-270-london": {
     "name": "Jordan Mars 270 London",
     "img":
-      "https://secure-images.nike.com/is/image/DotCom/CV3042_001_A_PREM?$SNKRS_COVER_WD$&align=0,1",
+      ["https://secure-images.nike.com/is/image/DotCom/CV3042_001_A_PREM?$SNKRS_COVER_WD$&align=0,1","https://c.static-nike.com/a/images/t_prod_ss/w_480,c_limit,q_auto,f_auto/08c07a79-16d8-46f3-813f-5b306efeb105/jordan-mars-270-london-release-date.jpg","https://c.static-nike.com/a/images/t_prod_ss/w_480,c_limit,q_auto,f_auto/d0a1b83c-716a-4ebb-859c-2ef11c8a1aa7/jordan-mars-270-london-release-date.jpg","https://c.static-nike.com/a/images/w_480,c_limit,q_auto,f_auto/w_640,c_limit,f_auto/0cb54d31-0135-4e44-9748-1276d83ede40/jordan-mars-270-london-release-date.jpg"],
     "desc": "Meet the latest Jordan SNEAKRS triple drop: the all-new Jordan City Pack. This trio of Jordan styles take inspiration from the colours, architecture and styles of three iconic cities—Paris, London and Milan—and re-expresses them through a Jordan lens. This time it’s the Jordan Mars 270 London that’s taking centre stage.",
-    "price": 60,
-    "id": "jordan-mars-270-london",
-    "changedPrice": 60,
-    "quantity": 0
+    "price": 160,
+    "id": "jordan-mars-270-london"
   },
   "air-jordan-11-low-ie-black-cement": {
-    "name": "Black Cement",
-    "img": "https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/9eb2cd70-f0d4-4ea6-94b2-ae7f2bb9580a/air-jordan-11-low-ie-black-cement-release-date.jpg",
+    "name": "Air Jordan 11 Low",
+    "img": ["https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/9eb2cd70-f0d4-4ea6-94b2-ae7f2bb9580a/air-jordan-11-low-ie-black-cement-release-date.jpg","https://cdn.flightclub.com/1500/TEMPLATE/803111/2.jpg","https://cdn.flightclub.com/1500/TEMPLATE/803111/3.jpg","https://cdn.flightclub.com/1500/TEMPLATE/803111/4.jpg"],
     "desc": "The Air Jordan 11's impactful legacy includes pioneering advances in both performance and style. Some of the silhouette's variations are more renowned than others—but it's past time for the Low I.E. to get its turn in the spotlight. The underrated design was the first low-top version of AJ11 to debut in the marketplace, and adapts signature details to create a versatile look with breathability and comfort at the forefront. This edition features an OG colour palette made famous by Air Jordan 3, with a black base complemented by accents of Cement Grey and hits of white and Fire Red.",
-    "price": 70,
+    "price": 170,
     "id": "air-jordan-11-low-ie-black-cement"
   },
   "ispa-overreact-flyknit-light-bone": {
     "name": "Light Bone",
-    "img": "https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/8bd6fc84-764d-4d82-aac6-acce1d11766e/ispa-overreact-flyknit-light-bone-release-date.jpg",
+    "img": ["https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/8bd6fc84-764d-4d82-aac6-acce1d11766e/ispa-overreact-flyknit-light-bone-release-date.jpg","https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/d11f0bf6-4d2e-4b5a-be53-c70fe957ca72/air-force-1-react-light-bone-release-date.jpg","https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/0d758985-fc52-41de-a7d5-7bfabcad996b/air-force-1-react-light-bone-release-date.jpg","https://static.nike.com/a/images/t_prod_sc/w_640,c_limit,f_auto/d500a802-a0d3-49c2-83ef-5206a0af68fd/air-force-1-react-light-bone-release-date.jpg"],
     "desc": "The OverReact pushes comfort to the edge, then barrels over that edge. We stripped out anything that could get in the way of your foot on top of our React Foam technology. We put geometry to work for us, carefully designing the form of the shoe to fit together with the materials we had. The result is a giant hug for your foot.",
-    "price": 80,
+    "price": 132,
     "id": "ispa-overreact-flyknit-light-bone"
   },
   "ispa-overreact-flyknit-crimson-volt": {
     "name": "Crimson Volt",
-    "img": "https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/1d40aec6-49ea-458a-8007-0799c99e5484/ispa-overreact-flyknit-crimson-volt-release-date.jpg",
+    "img": ["https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/1d40aec6-49ea-458a-8007-0799c99e5484/ispa-overreact-flyknit-crimson-volt-release-date.jpg","https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/25b21f6f-bce9-4e8d-be35-861e925c842c/ispa-overreact-flyknit-crimson-volt-release-date.jpg","https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/eda7e6a6-45e6-439a-bcc6-2daa6de5586a/ispa-overreact-flyknit-crimson-volt-release-date.jpg","https://static.nike.com/a/images/t_prod_sc/w_640,c_limit,f_auto/5d850d82-f9d6-4eb4-85ec-59e25a923c08/ispa-overreact-flyknit-crimson-volt-release-date.jpg"],
     "desc": "The OverReact pushes comfort to the edge, then barrels over that edge. We stripped out anything that could get in the way of your foot on top of our React Foam technology. We put geometry to work for us, carefully designing the form of the shoe to fit together with the materials we had. The result is a giant hug for your foot.",
-    "price": 120,
+    "price": 212,
     "id": "ispa-overreact-flyknit-crimson-volt"
   },
   "air-jordan-1-smoke-grey": {
     "name": "Smoke Grey",
-    "img": "https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/8ff1b4d8-3458-49f3-9d7d-0647261aafe4/air-jordan-1-smoke-grey-release-date.jpg",
+    "img": ["https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/8ff1b4d8-3458-49f3-9d7d-0647261aafe4/air-jordan-1-smoke-grey-release-date.jpg","https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/f092f222-d60f-4949-b95f-45ebbb34fc64/air-jordan-1-smoke-grey-release-date.jpg","https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/ba045422-cb1e-4fb2-a3ed-2fd0c207009b/air-jordan-1-smoke-grey-release-date.jpg","https://static.nike.com/a/images/t_prod_sc/w_640,c_limit,f_auto/32a95247-7af7-40e8-ac21-646909199712/air-jordan-1-smoke-grey-release-date.jpg"],
     "desc": "This edition of the OG AJ1 both honours its own heritage and breaks new ground by using classic colours from the AJ1 line in a blocking pattern that re-imagines a colourway mash-up. The white toe box contrasts with grey and red plush suede overlays, with all of it coming together around a black Swoosh for a modern classic vibe. This is what it looks like when something timeless keeps it fresh.",
-    "price": 185,
+    "price": 186,
     "id": "air-jordan-1-smoke-grey"
   },
   "air-jordan-5-purple-grape": {
     "name": "Purple Grape",
-    "img": "https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/c59c1a8b-c3a4-495e-aada-a871c8cce359/air-jordan-5-purple-grape-release-date.jpg",
+    "img": ["https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/c59c1a8b-c3a4-495e-aada-a871c8cce359/air-jordan-5-purple-grape-release-date.jpg","https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/ef247474-619e-4821-99e7-35e2e02e76d2/air-jordan-5-purple-grape-release-date.jpg","https://static.nike.com/a/images/t_prod_sc/w_640,c_limit,f_auto/7f25b354-de4f-453f-aea3-ef6ec4e82762/air-jordan-5-purple-grape-release-date.jpg","https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/15def748-3a93-4dc3-a0f3-d7cbaffb8edb/air-jordan-5-purple-grape-release-date.jpg"],
     "desc": "In 1990, the Air Jordan 5 debuted in three OG colourways: Black/Metallic Silver, White/Fire Red and White/Grape Ice. The entire trio remains relevant to this day, but the Grape colourway stands alone as the only look to eschew a team-orientated colour scheme. In the three decades since, we've seen deep purple reappear on the silhouette in various forms—but never like this. The vibrant hue covers the majority of the shoe's suede upper, with complementary black accents on the tongue, laces, mudguard and sole. Contrasting hits of new Emerald Green complete the motif.",
-    "price": 90,
+    "price": 212,
     "id": "air-jordan-5-purple-grape"
   },
-  "air-presto": {
-    "name": "Air Presto",
-    "img": "data:image/jpeg;base64,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",
-    "desc": "Since its release in 2000, the Nike Air Presto has changed the game, offering apparel-style sizing teamed with a stretchy upper for a stellar fit. Evolved from the original design to embrace natural motion construction, the latest Men's Nike Air Presto Running Shoe boasts a lightweight feel that's perfect for everyday wear.",
-    "price": 50,
-    "id": "air-presto"
+  "blazer-mid-77-vintage-shoe": {
+    "name": "Nike Blazer Mid '77 Vintage",
+    "img": ["https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/kxmb3lab5dmy00qpoyul/blazer-mid-77-vintage-shoe-dNWPTj.jpg","https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/u9ky0ah8uucbw4ctjubm/blazer-mid-77-vintage-shoe-dNWPTj.jpg","https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/8bc7d689-de2c-4b49-986c-b42153895bc0/blazer-mid-77-vintage-shoe-dNWPTj.jpg","https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/ef4dbed6-c621-4879-8db3-f87296bfb570/blazer-mid-77-vintage-shoe-dNWPTj.jpg"],
+    "desc": "The Nike Blazer Mid '77 Vintage harnesses the old-school look of Nike Basketball with a vintage midsole finish, making it look like you've been saving them for years.",
+    "price": 106,
+    "id": "blazer-mid-77-vintage-shoe"
   },
-  "air-jordan-1-low-shoe": {
-    "name": "Air Jordan 1 Low",
-    "img": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/i1-483c83ff-0235-4aec-80b3-d30fdc942585/air-jordan-1-low-shoe-z3Tl2VeJ.jpg",
-    "desc": "Inspired by the original that debuted in 1985, the Air Jordan 1 Low offers a clean, classic look that's familiar yet always fresh. It's made for casual mode, with an iconic design that goes with everything and never goes out of style.",
-    "price": 90,
-    "id": "air-jordan-1-low-shoe"
-  },
-  "react-miler-mens-running-shoe": {
-    "name": "Nike React Miler",
-    "img": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/05e36463-7f7d-4cbd-b246-e7e1a804bffa/react-miler-mens-running-shoe-DgF6nr.jpg",
+  "air-force-1-shadow-shoe-mN8Glx": {
+    "name": "Nike Air Force 1 Shadow",
+    "img": ["https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/5b7f6c36-498f-49ca-80f0-f9cc062b8ed4/air-force-1-shadow-shoe-mN8Glx.jpg","https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/e2ce73b5-bedb-470d-a3d8-2f447069b9c6/air-force-1-shadow-shoe-mN8Glx.jpg","https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/1b22c037-935c-4ea9-9de7-f7815c037ad9/air-force-1-shadow-shoe-mN8Glx.jpg","https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/75a7e49e-6c0e-483f-aef2-efe079061483/air-force-1-shadow-shoe-mN8Glx.jpg"],
     "desc": "The Nike React Miler gives you trusted stability for miles with athlete-informed performance. Made for dependability on your long runs, its intuitive design offers a locked-in fit and a durable feel.",
-    "price": 30,
-    "id": "react-miler-mens-running-shoe"
+    "price": 119,
+    "id": "air-force-1-shadow-shoe-mN8Glx"
+  },
+  "air-zoom-type-mens-shoe": {
+    "name": "Nike Air Zoom-Type",
+    "img": ["https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/5c1e3a90-b2b7-479c-b567-3b50903cf9da/air-zoom-type-mens-shoe-PZR40V.jpg","https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/d7ef3a93-8863-4d9b-9ee1-ba312bc97c18/air-zoom-type-shoe-WDCm0t.jpg","https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/4d00dbc1-fcd6-49c7-ad01-19133ea3aea8/air-zoom-type-shoe-WDCm0t.jpg","https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/10ff4e92-ca15-463c-af7c-f7a23403c8b1/air-zoom-type-shoe-WDCm0t.jpg"],
+    "desc": "Celebrate Nike innovation and sports heritage in the Nike Air Zoom-Type. It brings a deconstructed, DIY aesthetic to the streets with its zigzag stitching, and colors inspired by Japan's street culture. The stacked foam at the heel and contrast-colored Zoom Air cushioning at the forefoot use the same technology used by the world's elite athletes for an unparalleled ride.",
+    "price": 172,
+    "id": "air-zoom-type-mens-shoe"
+  },
+  "air-zoom-pegasus-37-running-shoe": {
+    "name": "Nike Air Zoom Pegasus 37",
+    "img": ["https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/33201b0e-8971-45eb-b91b-edac41535f5a/air-zoom-pegasus-37-running-shoe-mwrTCc.jpg","https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/83780560-dba0-461b-adbf-c12e442da82e/air-zoom-pegasus-37-running-shoe-mwrTCc.jpg","https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/03174a56-142c-4fb5-a15b-4dd354ffd8fc/air-zoom-pegasus-37-running-shoe-mwrTCc.jpg","https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/883f2317-7282-4a1d-bcc0-a444d881b4c4/air-zoom-pegasus-37-running-shoe-mwrTCc.jpg"],
+    "desc": "Reinvigorate your stride with the Nike Air Zoom Pegasus 37. Delivering the same fit and feel that runners love, the shoe has an all-new forefoot cushioning unit and foam for maximum responsiveness. The result is a durable, lightweight trainer designed for everyday running.",
+    "price": 132,
+    "id": "air-zoom-pegasus-37-running-shoe"
+  },
+  "air-monarch-iv-lifestyle-gym-shoe": {
+    "name": "Nike Air Monarch IV",
+    "img": ["https://c.static-nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/uirypqqxq83mwcjbf9ej/air-monarch-iv-lifestyle-gym-shoe-cc3XbD.jpg","https://c.static-nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/kvhylxrv7jofadxpc6io/air-monarch-iv-lifestyle-gym-shoe-cc3XbD.jpg","https://c.static-nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/lzof0errxa0jqfb4i10t/air-monarch-iv-lifestyle-gym-shoe-cc3XbD.jpg","https://c.static-nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/zzqllgyetcgagf1d5gei/air-monarch-iv-lifestyle-gym-shoe-cc3XbD.jpg"],
+    "desc": "The Air Jordan 1 Mid Shoe is inspired by the first AJ1, offering OG fans a look at how far the Jordan brand has come since 1985.",
+    "price": 70,
+    "id": "air-monarch-iv-lifestyle-gym-shoe"
   }
 }

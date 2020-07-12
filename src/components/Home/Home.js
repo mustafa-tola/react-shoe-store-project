@@ -1,28 +1,66 @@
 import React, { useContext } from 'react';
+import { makeStyles } from '@material-ui/core/styles';
+import { Grid, Card, CardActionArea, CardActions, CardContent, CardMedia, Button, Typography } from "@material-ui/core";
+import { GlobalContext } from '../../context/GlobalState';
 import shoes from "../../shoes.json";
-import { GlobalContext } from "../../context/GlobalState";
 import { Link } from "react-router-dom";
 
+const useStyles = makeStyles({
+  root: {
+    flexGrow: 1,
+    margin: 10,
+  },
+  paper: {
+    textAlign: 'center',
+
+  }
+});
 export const Home = () => {
+  const classes = useStyles();
   const { addToCart } = useContext(GlobalContext);
   return (
-    <div>
-      <h1 style={{ "textAlign": "center" }}>Here You Can Find The List Of Shoes Which We Sell</h1>
-      <ul style={{ "marginTop": "10px" }}>
+    <div className={classes.root}>
+      <h1 style={{ "textAlign": "center" }}>Here are the shoes which we sell</h1>
+      <Grid container spacing={4}>
         {Object.entries(shoes).map(([shoe, { name, img, desc, price }]) => {
           return (
-            <li key={shoe} style={{ "border": "3px solid black", "padding": "10px", "marginTop": "10px", "marginBottom": "10px" }}>
-              <Link to={`${shoe}`} >
-                <h1>{name}</h1>
-                <img src={img} alt={name} />
-              </Link>
-              <p>{desc}</p>
-              <p style={{ "textAlign": "center" }}><b>Price:</b> {price}$</p>
-              <button style={{ "backgroundColor": "grey", "color": "white", "height": "25px" }} onClick={() => addToCart(shoe)}>Add To Cart</button>
-            </li>
+            <Grid item xs={12} sm={6} md={3}>
+              <Card className={classes.root}>
+                <CardActionArea>
+                  <CardMedia
+                    component="img"
+                    className={classes.media}
+                    image={img[0]}
+                    title={name}
+                  />
+                  <CardContent>
+                    <Typography gutterBottom variant="h5" component="h2">
+                      {name}
+                    </Typography>
+                    <Typography variant="body2" color="textSecondary" component="p">
+                      {desc}
+                    </Typography>
+                    <Typography variant="h5">
+                      Price: {price}$
+                    </Typography> 
+                  </CardContent>
+                </CardActionArea>
+                <CardActions>
+                  <Button size="small" color="primary" onClick={() => addToCart(shoe)}>
+                    Add To Cart
+                  </Button>
+                  <Button size="small" color="primary">
+                    <Link to={`${shoe}`} style={{"textDecoration": "none"}}>
+                      Details
+                    </Link>
+                  </Button>
+                </CardActions>
+              </Card >
+            </Grid>
           )
         })}
-      </ul>
+
+      </Grid>
     </div>
   )
-}
+};
