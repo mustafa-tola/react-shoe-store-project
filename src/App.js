@@ -39,21 +39,21 @@ export default function App() {
                 <Link to="/" style={{ "float": "left", "padding": "5px", "color": "white", "textDecoration": "none" }}>Mustafa's Shoes</Link>
               </Typography>
               <Typography variant="h6">
-                <Link to="cart" style={{ "float": "right", "padding": "5px", "color": "white", "textDecoration": "none" }}>Cart</Link>
+                <Link to="/" style={{ "float": "right", "padding": "5px", "color": "white", "textDecoration": "none" }}>Home</Link>
               </Typography>
               <Typography variant="h6">
                 <Link to="about" style={{ "float": "right", "padding": "5px", "color": "white", "textDecoration": "none" }}>About</Link>
               </Typography>
               <Typography>
-                <Link to="/" style={{ "float": "right", "padding": "5px", "color": "white", "textDecoration": "none", "fontWeight": "bold" }}>Home</Link>
+                <Link to="cart" style={{ "float": "right", "padding": "5px", "color": "white", "textDecoration": "none", "fontWeight": "bold" }}>Cart</Link>
               </Typography>
             </Toolbar>
           </AppBar>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="detail" element={<Detail />}>
-              <Route path="/" element={<DetailIndex />} />
-              <Route path="/:shoe" element={<ShoeDetail />} />
+            <Route path="detail" element={<Detail />} >
+              <Route path="/" element={<DetailIndex />} ></Route>
+              <Route path=":shoe" element={<ShoeDetail />}></Route> 
             </Route>
             <Route path="about" element={<About />} />
             <Route path="cart" element={<Cart />} />

@@ -70,11 +70,11 @@ export const Cart = () => {
                                         <Button size="small" color="primary" onClick={() => removeFromCart(shoe.id)}>
                                             Remove From Cart
                                         </Button>
-                                        <Button size="small" color="primary">
-                                            <Link to={`/detail/${shoe.id}`} style={{"textDecoration": "none"}}>
+                                        <Link to={`/detail/${shoe.id}`} style={{ "textDecoration": "none" }}>
+                                            <Button size="small">
                                                 Details
-                                            </Link>
-                                        </Button>
+                                            </Button>
+                                        </Link>
                                     </CardActions>
                                 </Card >
                             </Grid>

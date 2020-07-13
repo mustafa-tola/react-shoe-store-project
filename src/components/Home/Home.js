@@ -42,18 +42,16 @@ export const Home = () => {
                     </Typography>
                     <Typography variant="h5">
                       Price: ${price}
-                    </Typography> 
+                    </Typography>
                   </CardContent>
                 </CardActionArea>
                 <CardActions>
                   <Button size="small" color="primary" onClick={() => addToCart(shoe)}>
                     Add To Cart
                   </Button>
-                  <Button size="small" color="primary">
-                    <Link to={`/detail/${shoe}`} style={{"textDecoration": "none"}}>
-                      Details
-                    </Link>
-                  </Button>
+                  <Link to={`detail/${shoe}`} style={{ "textDecoration": "none" }}>
+                    Details
+                  </Link>
                 </CardActions>
               </Card >
             </Grid>
